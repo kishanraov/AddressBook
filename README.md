@@ -22,6 +22,8 @@ Download JDK from Oracle website http://www.oracle.com/technetwork/java/javase/d
 Download MySQL from https://dev.mysql.com/downloads/windows/installer/
 Download maven from http://maven.apache.org/download.cgi
 To install mvnw  use the command  mvn -N io.takari:maven:wrapper
+
+Create a database called test. the jdbcs url should look like jdbc:mysql://localhost:3306/test
 ```
 
 ### Installing
@@ -34,6 +36,8 @@ After compilation, the packaged file is a self executable jar file, with all dep
 git clone https://github.com/kishanraov/AddressBook.git
 cd AddressBook
 mvn clean package (or mvnw clean package)
+
+copy the data.csv file to /tmp/data.csv 
 
 java  -jar target/spring-boot-addressbook-0.0.1.jar (keep the data.csv file in /tmp/ directory) OR
 java  -jar target/spring-boot-addressbook-0.0.1.jar --csvfile=provide full path of data.csv
