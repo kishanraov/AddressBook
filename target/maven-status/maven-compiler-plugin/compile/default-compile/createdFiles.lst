@@ -1,0 +1,9 @@
+addressbook/springframework/repositories/AddressRepository.class
+addressbook/springframework/SpringBootMySqlApplication.class
+addressbook/springframework/controllers/AddressController.class
+addressbook/springframework/services/AddressServiceImpl.class
+addressbook/springframework/commands/AddressForm.class
+addressbook/springframework/converters/AddressFormToAddress.class
+addressbook/springframework/domain/Address.class
+addressbook/springframework/services/AddressService.class
+addressbook/springframework/converters/AddressToAddressForm.class

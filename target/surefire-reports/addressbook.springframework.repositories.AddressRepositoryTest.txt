@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: addressbook.springframework.repositories.AddressRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.187 s - in addressbook.springframework.repositories.AddressRepositoryTest
