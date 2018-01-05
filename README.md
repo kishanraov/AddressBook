@@ -38,7 +38,7 @@ mvn clean package (or mvnw clean package)
 java  -jar target/spring-boot-addressbook-0.0.1.jar (keep the data.csv file in /tmp/ directory) OR
 java  -jar target/spring-boot-addressbook-0.0.1.jar --csvfile=provide full path of data.csv
 
-The CSV file gets uploaded to MySQL database. the default databse url is jdbc:mysql://localhost:3306/test and default username and password are scott/tiger. If you would like to change the db url, userid and passsword then you need to modify resource.properties file under the src/main/resources directory.
+The CSV file gets uploaded to MySQL database. The default databse url is jdbc:mysql://localhost:3306/test and default username and password are scott/tiger. If you would like to change the db url, userid and passsword then you need to modify resource.properties file under the src/main/resources directory.
 
 The Tomcat web server runs on port 8080.
 ```
@@ -58,9 +58,9 @@ The Tomcat web server runs on port 8080.
 
 ## Built With
 
-* [Eclipse](http://www.eclipse.org/downloads/) - The IDE used
+* [Eclipse](http://www.eclipse.org/downloads/) - IDE
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [Google](https://github.com/googlemaps/google-maps-services-java/) - Google Geo Coding Api
+* [Spring](https://spring.io/) - Spring Framework 
 
 
 ## Authors
@@ -69,6 +69,4 @@ The Tomcat web server runs on port 8080.
 
 
 ## License
-
-This project require license to run
 
